@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply for Job</title>
+    <link rel="stylesheet" href="hack3.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h2>Apply for Job</h2>
+        <div class="form-group">
+            <label for="job-dropdown">Select Job:</label>
+            <select id="job-dropdown">
+                <option value="job1">Data Analyst</option>
+                <option value="job2">Software Engineer</option>
+                <option value="job3">ML Engineer</option>
+                <!-- Add more job options as needed -->
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="qualification">Qualification:</label>
+            <input type="text" id="qualification" placeholder="Enter your qualification">
+        </div>
+        <div class="form-group">
+            <label for="experience">Experience (years):</label>
+            <input type="number" id="experience" placeholder="Enter your experience">
+        </div>
+        <button onclick="applyForJob()">Apply</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
